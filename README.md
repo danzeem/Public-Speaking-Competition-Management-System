@@ -35,45 +35,49 @@ All images below show the archived application interface. Identifying values in 
 
 **General login interface**
 
-![General login form](screenshots/login.png)
+![General login form](<img width="495" height="238" alt="image" src="https://github.com/user-attachments/assets/21607df4-8180-4167-8f47-c883c104f399" />
+)
 
 **Participant competition login**
 
-![Participant login form](screenshots/participant-login.png)
+![Participant login form](<img width="482" height="237" alt="image" src="https://github.com/user-attachments/assets/ede9e518-4a27-457b-a265-91da81cf1f36" />)
 
 ### Organizer and registration workflow
 
 **Add a participant** — Enter participant information and assign the relevant judge and organizer.
 
-![Add participant form](screenshots/add-participant.png)
+![Add participant form](![Uploading image.png…](<img width="483" height="235" alt="image" src="https://github.com/user-attachments/assets/8dd3ad95-57ab-4035-8e32-5f00704bea74" />)
+
 
 **Register organizer and judge accounts**
 
 | Organizer registration | Judge registration |
 | --- | --- |
-| ![Organizer form](screenshots/add-organizer.png) | ![Judge form](screenshots/add-judge.png) |
+| ![Organizer form](<img width="490" height="232" alt="image" src="https://github.com/user-attachments/assets/41dc6692-cffc-4d59-9fae-6909c4365144" />) | ![Judge form](<img width="486" height="233" alt="image" src="https://github.com/user-attachments/assets/3a048944-a550-4635-954e-268032d1f43d" />) |
 
 **Assessment criteria management**
 
-![Assessment criteria form](screenshots/add-criteria.png)
+![Assessment criteria form](<img width="1200" height="585" alt="image" src="https://github.com/user-attachments/assets/8c3214ae-561f-4498-a110-caf4cd04e4fe" />)
 
 ### Importing and finding records
 
 | Import records | Find a participant |
 | --- | --- |
-| ![Import data interface](screenshots/import-data.png) | ![Participant search with identifying data redacted](screenshots/participant-search.png) |
+| ![Import data interface](<img width="712" height="330" alt="image" src="https://github.com/user-attachments/assets/088d1d75-fdbe-49ad-8678-ebe9f2886585" />
+) | ![Participant search with identifying data redacted](<img width="557" height="248" alt="image" src="https://github.com/user-attachments/assets/87e2351e-7278-4c1e-9fd9-25de78700525" />) |
 
 ### Judging and reports
 
 **Results shown to judges** — A tabular view of scores for assessed participants.
 
-![Judge results table with names redacted](screenshots/judge-results.png)
+![Judge results table with names redacted](<img width="725" height="355" alt="image" src="https://github.com/user-attachments/assets/69cd7894-3e10-4336-ab6d-92d5f6fa3993" />)
 
 **Select and print a report**
 
 | Report selection | Print preview |
 | --- | --- |
-| ![Report selection interface](screenshots/report-selection.png) | ![Report and print preview](screenshots/report-print-preview.png) |
+| ![Report selection interface](<img width="640" height="312" alt="image" src="https://github.com/user-attachments/assets/989e2a7b-661d-4ada-8e94-75e946b39d59" />) | ![Report and print preview](<img width="1073" height="520" alt="image" src="https://github.com/user-attachments/assets/5a9c2911-4943-4e3a-8e0e-faf086e0db98" />
+) |
 
 ## Technology stack
 
