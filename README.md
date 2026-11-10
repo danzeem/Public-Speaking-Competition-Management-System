@@ -35,12 +35,11 @@ All images below show the archived application interface. Identifying values in 
 
 **General login interface**
 
-![General login form](<img width="495" height="238" alt="image" src="https://github.com/user-attachments/assets/21607df4-8180-4167-8f47-c883c104f399" />
-)
+![General login form](<img width="1067" height="507" alt="image" src="https://github.com/user-attachments/assets/89d7a8a1-9d0c-4423-9e30-0ad0827a6483" />)
 
 **Participant competition login**
 
-![Participant login form](<img width="482" height="237" alt="image" src="https://github.com/user-attachments/assets/ede9e518-4a27-457b-a265-91da81cf1f36" />)
+![Organizer login form](<img width="965" height="462" alt="image" src="https://github.com/user-attachments/assets/d5f99a4e-1c42-44cb-8ef0-5e4b699a779c" />)
 
 ### Organizer and registration workflow
 
