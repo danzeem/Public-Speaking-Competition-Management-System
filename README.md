@@ -62,8 +62,7 @@ All images below show the archived application interface. Identifying values in 
 
 | Import records | Find a participant |
 | --- | --- |
-| <img width="712" height="330" alt="image" src="https://github.com/user-attachments/assets/088d1d75-fdbe-49ad-8678-ebe9f2886585" />
-| <img width="557" height="248" alt="image" src="https://github.com/user-attachments/assets/87e2351e-7278-4c1e-9fd9-25de78700525" /> |
+| <img width="712" height="330" alt="image" src="https://github.com/user-attachments/assets/088d1d75-fdbe-49ad-8678-ebe9f2886585" /> | <img width="557" height="248" alt="image" src="https://github.com/user-attachments/assets/87e2351e-7278-4c1e-9fd9-25de78700525" /> |
 
 ### Judging and reports
 
