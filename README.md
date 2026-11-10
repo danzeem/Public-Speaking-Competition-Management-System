@@ -35,8 +35,7 @@ All images below show the archived application interface. Identifying values in 
 
 **General login interface**
 
-![General login form](<img width="1067" height="507" alt="image" src="https://github.com/user-attachments/assets/89d7a8a1-9d0c-4423-9e30-0ad0827a6483" />
-)
+<img width="1067" height="507" alt="image" src="https://github.com/user-attachments/assets/89d7a8a1-9d0c-4423-9e30-0ad0827a6483" />
 
 **Participant competition login**
 
