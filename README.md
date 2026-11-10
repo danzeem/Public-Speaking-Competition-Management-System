@@ -1,92 +1,114 @@
-# Public Speaking Competition Management System (Private project)
+# Public Speaking Competition Management System
 
-**A school competition management system built with PHP, MySQL, HTML, CSS, and JavaScript.**
+**A database-backed web application for organizing and judging a school public speaking competition.**
 
 **Year:** 2022  
-**Project:** SPM Computer Science · SMK Kuhara, Tawau, Sabah  
-**Repository:** Public project showcase — source code is kept private
+**Context:** SPM Computer Science project · SMK Kuhara, Tawau, Sabah, Malaysia  
+**Built with:** PHP · MySQL · HTML · CSS · JavaScript  
+**Repository:** Public project showcase; implementation is stored separately in a private repository
 
-## About the project
+## Overview
 
-This was one of my school Computer Science projects: a web-based management system for a **Malay-language public speaking competition** (*Pertandingan Syarahan Bahasa Melayu*).
+I developed this web-based system for *Pertandingan Syarahan Bahasa Melayu*, a Malay-language public speaking competition at my secondary school. The idea was to bring registration, judge assignment, assessment, result tracking, and report generation into a single database-backed application.
 
-The goal was to bring common competition activities — participant registration, judging, score recording, and results reporting — into a database-backed application instead of handling each step separately.
+The system was designed around three user groups — **Urusetia (organizers)**, **Hakim (judges)**, and **Peserta (participants)** — each with its own workflow. It was my early introduction to connecting a web interface, backend processing, and relational data.
 
-Building it introduced me to full-stack web development, relational database design, and the challenge of connecting different users and workflows within one system.
+> **Project status:** Archived 2022 school project. The screenshots document the original prototype rather than a currently hosted or production-ready service.
 
-## Key features
+## Main features
 
-| Feature | Description |
+| Area | Features |
 | --- | --- |
-| **Three user roles** | Separate login flows and interfaces for organizers, judges, and participants |
-| **Participant management** | Registration and administrative tools for managing participant records |
-| **Judge assignment** | Participant records associated with assigned judges |
-| **Scoring** | Judges enter marks for assessment criteria and calculate totals |
-| **Results** | Participants can view their assessment breakdown and standing |
-| **Reports** | Organizers can view overall or judge-filtered results and print them |
-| **Record management** | Administrative tools for managing judges, organizers, and assessment criteria |
-| **Data import** | Import support for comma-separated participant or judge records |
+| Role-specific workflows | Login interfaces and pages for organizers, judges, and participants |
+| Record management | Registration and management forms for organizers, judges, and participants |
+| Assessment setup | Administer assessment criteria and scoring fields |
+| Judging | Enter marks for participants and calculate totals |
+| Results | Display participant marks and results tables |
+| Reporting | Select reports and generate printable results |
+| Data import and search | Import structured records from a text file and search participant records |
 
-These features describe the original school prototype. It is an archived project, not a currently hosted or production-ready service.
+## Project screenshots
+
+All images below show the archived application interface. Identifying values in selected screenshots have been obscured for public sharing.
+
+### Authentication and participant access
+
+**General login interface**
+
+![General login form](screenshots/login.png)
+
+**Participant competition login**
+
+![Participant login form](screenshots/participant-login.png)
+
+### Organizer and registration workflow
+
+**Add a participant** — Enter participant information and assign the relevant judge and organizer.
+
+![Add participant form](screenshots/add-participant.png)
+
+**Register organizer and judge accounts**
+
+| Organizer registration | Judge registration |
+| --- | --- |
+| ![Organizer form](screenshots/add-organizer.png) | ![Judge form](screenshots/add-judge.png) |
+
+**Assessment criteria management**
+
+![Assessment criteria form](screenshots/add-criteria.png)
+
+### Importing and finding records
+
+| Import records | Find a participant |
+| --- | --- |
+| ![Import data interface](screenshots/import-data.png) | ![Participant search with identifying data redacted](screenshots/participant-search.png) |
+
+### Judging and reports
+
+**Results shown to judges** — A tabular view of scores for assessed participants.
+
+![Judge results table with names redacted](screenshots/judge-results.png)
+
+**Select and print a report**
+
+| Report selection | Print preview |
+| --- | --- |
+| ![Report selection interface](screenshots/report-selection.png) | ![Report and print preview](screenshots/report-print-preview.png) |
 
 ## Technology stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **Database:** MySQL (relational tables and foreign-key relationships)
-- **Database access:** PHP `mysqli`
-- **Other concepts:** PHP sessions, CRUD operations, SQL queries, form handling, dynamic reporting
+| Layer | Tools / concepts |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP |
+| Database | MySQL, relational tables, SQL queries |
+| Data access | PHP `mysqli` |
+| Other | PHP sessions, CRUD forms, data import, browser printing |
 
-## How it works
+## How the application works
 
-The application follows three main user journeys:
-
-**Organizers** manage competition records, assessment criteria, and results reports.
-
-**Judges** select participants assigned to them, enter scores for the defined criteria, and submit the results.
-
-**Participants** sign in to view their marks, total score, and standing.
-
-The data is stored in a relational database connecting participants, judges, organizers, assessment criteria, and results.
-
-## Screenshots
-
-*Screenshots can be added here once sample data has been anonymized.*
-
-Suggested screenshots:
-
-1. Login page
-2. Organizer dashboard and participant management
-3. Judge scoring form
-4. Results or printable report using fictional participant data
-
-> For privacy, any screenshots shared publicly should exclude real students' personal details, passwords, identity numbers, and telephone numbers. Review school logo usage before publishing images.
+1. **Organizers** manage users, participants, judges, assessment criteria, imports, and reports.
+2. **Judges** work with assigned participants and record scores across evaluation criteria.
+3. **Participants** use a dedicated interface to access their assessment information.
+4. **MySQL** stores related records for participants, judges, organizers, scoring criteria, and results.
 
 ## What I learned
 
-This project helped me move beyond static websites and understand how a complete web application is organized.
+- Designing a relational database and connecting it to PHP pages.
+- Implementing different user flows within a multi-page web application.
+- Using forms and SQL queries to create, retrieve, edit, and present data.
+- Building scoring interfaces and printable reporting views.
+- Working through the design and testing of a larger project independently.
 
-I gained experience with:
+I built this as a secondary-school student. In a contemporary application, I would redesign parts of the security, authentication, and code organization; this project is included as a record of my development and learning.
 
-- Designing related tables in a MySQL database
-- Connecting PHP pages to a database and displaying queried data
-- Implementing basic create, read, update, and delete (CRUD) operations
-- Designing different workflows for different users
-- Capturing and processing form input
-- Presenting scores and generating printable reports
-- Structuring a multi-page web project
+## Source code
 
-It was an early project, and I would approach authentication, security, and maintainability differently today. Nevertheless, it represents an important step in learning how to build database-driven applications.
+The implementation is maintained separately in a **private repository**, as this was a school coursework project. The public repository contains documentation and project screenshots only.
 
-## Source code availability
-
-The **source code is maintained in a private repository** because this was a school coursework project.
-
-This public repository is intended to document the system and demonstrate what I built. A project walkthrough may be provided on request, subject to applicable school and academic-integrity requirements.
+A walkthrough of the implementation may be available on request, subject to applicable school rules and academic-integrity requirements.
 
 ## Author
 
 **Mohd Danish Radzeem**  
-SMK Kuhara · SPM Computer Science Project · 2022
-<img width="533" height="287" alt="image" src="https://github.com/user-attachments/assets/1d9c31f3-8587-4770-88dd-db0c4642da15" />
-
+SPM Computer Science · SMK Kuhara, Tawau · 2022
