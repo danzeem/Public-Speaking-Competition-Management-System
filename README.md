@@ -88,3 +88,5 @@ This public repository is intended to document the system and demonstrate what I
 
 **Mohd Danish Radzeem**  
 SMK Kuhara · SPM Computer Science Project · 2022
+<img width="533" height="287" alt="image" src="https://github.com/user-attachments/assets/1d9c31f3-8587-4770-88dd-db0c4642da15" />
+
