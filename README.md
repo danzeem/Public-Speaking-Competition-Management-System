@@ -39,14 +39,13 @@ All images below show the archived application interface. Identifying values in 
 
 **Participant competition login**
 
-![Organizer login form](<img width="965" height="462" alt="image" src="https://github.com/user-attachments/assets/d5f99a4e-1c42-44cb-8ef0-5e4b699a779c" />
-)
+<img width="965" height="462" alt="image" src="https://github.com/user-attachments/assets/d5f99a4e-1c42-44cb-8ef0-5e4b699a779c" />
 
 ### Organizer and registration workflow
 
 **Add a participant** — Enter participant information and assign the relevant judge and organizer.
 
-![Add participant form](![Uploading image.png…](<img width="483" height="235" alt="image" src="https://github.com/user-attachments/assets/8dd3ad95-57ab-4035-8e32-5f00704bea74" />)
+![Add participant form](![<img width="483" height="235" alt="image" src="https://github.com/user-attachments/assets/8dd3ad95-57ab-4035-8e32-5f00704bea74" />]()
 
 
 **Register organizer and judge accounts**
